@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+    <LinearLayout style="@style/content_view"
+        android:gravity="center_horizontal">
+        <LinearLayout style="@style/content" android:orientation="vertical" >
+            
+            <!-- IMPORT DATA -->
+            <TextView style="@style/page_title" android:text="Import Data" />
+          	<TextView style="@style/full_width" android:text="Please select a file located under /mnt/sdcard/Download. You may use other applications during import." />
+            
+            
+            <LinearLayout style="@style/fieldset">
+				<TextView style="@style/full_width"
+	                android:text="File to Import:" />
+	            <Spinner
+	                android:id="@+id/import_spinner"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" />
+	            
+				<ProgressBar
+				    android:layout_marginTop="20dip"
+	                android:id="@+id/import_progress"
+	                style="?android:attr/progressBarStyleHorizontal"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" />
+				<RelativeLayout style="@style/full_width" android:orientation="horizontal">
+				    <TextView style="@style/block" android:text="Ready to begin import." android:id="@+id/import_status" />
+				    <!--  <TextView style="@style/block" android:text="0" android:id="@+id/import_already_imported" android:layout_toRightOf="@id/import_progress_label" />
+				    <TextView style="@style/block" android:text=" / " android:id="@+id/import_slash" android:layout_toRightOf="@id/import_already_imported" />
+				    <TextView style="@style/block" android:text="0" android:id="@+id/import_total_records" android:layout_toRightOf="@id/import_slash" />
+				    <TextView style="@style/block" android:text=" records." android:layout_toRightOf="@id/import_total_records" /> -->
+				    
+				    <TextView style="@style/block" android:id="@+id/import_percent" android:text="0%" android:layout_alignParentRight="true" />
+				</RelativeLayout>
+            </LinearLayout>
+    
+            
+            
+            <LinearLayout style="@style/full_width" android:orientation="horizontal">
+	           
+	            <Button
+	                android:id="@+id/import_cancel"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Cancel" />
+	            
+                <Button
+	                android:id="@+id/import_submit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Import Data" />
+	            
+
+			</LinearLayout>
+
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

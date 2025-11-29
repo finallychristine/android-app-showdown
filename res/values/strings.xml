@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="left_menu_titles">
+        <item>Welcome</item>
+        <item>Employee Report</item>
+        <item>Destination Report</item>
+        <item>Document Type Report</item>
+        <item>Host Report</item>
+        <item>Hour of Day Report</item>
+    </string-array>
+	<string-array name="left_menu_classes">
+	    <item>WelcomeFragment</item>
+	    <item>UsersFragment</item>
+	    <item>DestinationFragment</item>
+	    <item>DocumentFragment</item>
+	    <item>HostFragment</item>
+	    <item>HoursFragment</item>
+	</string-array>
+	<string-array name="left_menu_icons">
+	    <item></item>
+	    <item>ic_contact</item>
+	    <item>ic_network_transmit</item>
+	    <item>ic_doc_type</item>
+	    <item>ic_internet2</item>
+	    <item>ic_hour_day</item>
+	</string-array>
+    
+    
+    <string name="req_app_name">cthornton</string>
+    <string name="app_name">Avnet Reporter</string>
+    
+    
+    
+
+    
+</resources>

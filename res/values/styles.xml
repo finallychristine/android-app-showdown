@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light" />
+    
+    <style name="content_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    	<item name="android:paddingLeft">5dip</item>
+    	<item name="android:paddingRight">10dip</item>
+    </style>
+    
+    <style name="content">
+        <item name="android:background">@drawable/legal_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        
+        <!-- Padding -->
+        <item name="android:paddingTop">28dip</item>
+        <item name="android:paddingLeft">70dip</item>
+        <item name="android:paddingRight">55dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        
+        <!-- Margin -->
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+    </style>
+    
+    <style name="welcome_p" parent="@style/full_width">
+        <item name="android:paddingTop">5dip</item>
+    </style>
+    
+    <style name="page_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="fieldset">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/fieldset_border</item>
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginTop">20dip</item>
+        <item name="android:layout_marginBottom">20dip</item>
+        <item name="android:orientation">vertical</item>
+        
+        <!-- Padding -->
+        <item name="android:paddingTop">15dip</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+        <item name="android:paddingBottom">15dip</item>
+    </style>
+    
+    <style name="full_width">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="block">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+</resources>

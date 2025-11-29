@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/content_view" >
+
+    <LinearLayout style="@style/content"
+        android:orientation="vertical">
+
+		<TextView style="@style/page_title"
+		    android:layout_width="fill_parent"
+       		android:text="Avnet Reporter" />
+		<TextView style="@style/full_width"
+		    android:text="Welcome to the Avnet Reporter application by team SIGSEGV!" />
+
+		<TextView style="@style/welcome_p"
+		    android:text="You can view a report by selecting a menu item to the left. You may import new data by selecting the menu icon above." />
+
+
+		<TextView style="@style/welcome_p"
+		    android:text="This application uses some images from other projects:" />
+
+		<TextView style="@style/welcome_p"
+		    android:text="  &#x2022; Icons: Gnome Art, Dropline Neu! (http://art.gnome.org/themes/icon)" />
+
+		<TextView style="@style/full_width"
+		    android:text="  &#x2022; Background: WordPress Simplex Theme (http://wordpress.org/extend/themes/simplex)" />
+
+
+		<TextView style="@style/welcome_p" android:paddingTop="20dip"
+		    android:text="I hope you enjoy using this application," />
+
+		<TextView style="@style/full_width"
+		    android:text="Christine Thornton" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout style="@style/content_view">
+<LinearLayout style="@style/content" android:orientation="vertical">
+      
+    <!-- Actual Content Here -->
+    <TextView style="@style/page_title" android:text="Records by Buisness Day" />
+    <TextView style="@style/full_width" android:id="@+id/hours_subtext" android:text="All records are from the time of 8:00am to 5:00pm in MST, down to the millisecond and exclude partial days." />
+    
+    <LinearLayout style="@style/fieldset" android:paddingTop="0dip">
+        
+	    <ListView android:id="@+id/hours_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

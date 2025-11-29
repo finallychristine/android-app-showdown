@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout style="@style/content_view">
+<LinearLayout style="@style/content" android:orientation="vertical">
+      
+    <!-- Actual Content Here -->
+    <TextView style="@style/page_title" android:text="Records by Destination" />
+    <TextView style="@style/full_width" android:text="Records include the destination of Email, Request System or Browser." />
+     
+    <LinearLayout style="@style/fieldset" android:paddingTop="0dip">
+        <!--  <TextView style="@style/full_width" 
+            android:text="SUMMARY" 
+            android:id="@+id/hours_summary"
+            android:paddingBottom="15dip" />  -->
+        
+	    <ListView android:id="@+id/destination_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+            
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
